@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>info2180-Lab4</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
     <script src="app.js"></script>
 </head>
 
@@ -14,8 +14,18 @@
             Avengers Character Search
         </h1>
     </header>
-    <button type="submit" class="btn">Search</button>
-    <div id="list">
+    <h2>
+        Search by Full Name or Alias
+    </h2>
+    <form action="superheroes.php">
+        <input type="text" placeholder="e.g. Captain America or Steve Rogers" name="searchbar" id="search">
+        <button type="submit" class="btn">Search</button>
+    </form>
+    <h3>
+        RESULT
+    </h3>
+
+    <div id="result">
         
     </div>
     

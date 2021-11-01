@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    font-size: 18px;
+    grid-template-rows: auto auto auto auto auto;
+    padding-inline: 500px;
+}
+header{
+    font-size: 25px;
+    display: block;    
+    justify-self: center;
+    
+    
+}
+
+input{
+    inline-size: 700px;
+    block-size: 50px; 
+    border-radius: 10px;   
+}
+button{
+    inline-size: 150px;
+    block-size: 50px;
+    margin-left: 15px;
+    font-size: 18px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+#result{
+    border: 1px;
+    border-top-style: solid;
+}
